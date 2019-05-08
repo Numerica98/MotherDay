@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_titulo_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App para mamás"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        android:layout_margin="15dp"
+        android:textColor="#8B0000"/>
+
+    <TextView
+        android:id="@+id/tv_mama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presiona aquí si eres mamá"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        android:layout_margin="15dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/bt_mama"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Mami"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#000080"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_abuela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presiona aquí si eres abuelita"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        android:layout_margin="15dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/bt_abuela"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Abuelita"
+        android:textSize="30sp"/>
+
+</LinearLayout>
