@@ -18,6 +18,12 @@
         android:layout_margin="15dp"
         android:textColor="#8B0000"/>
 
+    <ImageView
+        android:id="@+id/iv_portada"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/portada"/>
+
     <TextView
         android:id="@+id/tv_mama"
         android:layout_width="wrap_content"
@@ -55,6 +61,8 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:text="Abuelita"
-        android:textSize="30sp"/>
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:background="#FF8000"/>
 
 </LinearLayout>
