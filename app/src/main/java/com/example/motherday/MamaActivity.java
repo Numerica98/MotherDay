@@ -19,7 +19,7 @@ public class MamaActivity extends AppCompatActivity {
         tv_mensaje= findViewById(R.id.tv_mensaje);
         iv_foto= findViewById(R.id.iv_foto);
 
-        tv_mensaje.setText("MAMI");
+        tv_nombre.setText("MAMI");
         iv_foto.setImageResource(R.drawable.mama);
         tv_mensaje.setText("Eres la mejor madre del mundo mundial, no olvides que te amamos, gracias por todo tu esfuerzo y ser una luz para nosotros. Diosito no se equivoco al darnos una mandre como tú");
 
