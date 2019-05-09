@@ -19,7 +19,7 @@ public class AbuelaActivity extends AppCompatActivity {
         tv_mensaje= findViewById(R.id.tv_mensaje);
         iv_foto= findViewById(R.id.iv_foto);
 
-        tv_mensaje.setText("ABUELA");
+        tv_nombre.setText("ABUELA");
         iv_foto.setImageResource(R.drawable.abuela);
         tv_mensaje.setText("Eres una doble mamá que nos ha cuidado mucho todo estos años. Gracias por tu amor, las comiditas ricas que nos haces, el estar pendiente de nosotros y tenernos siempre en oraciones. Te amamos mucho");
 
